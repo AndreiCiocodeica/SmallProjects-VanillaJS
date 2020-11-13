@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Philosopher', sans-serif;;
+}
+
+:root {
+    --h1: #707070;
+    --h2: #ffa45b;
+    --h3Btnbleft: #fc6e51;
+    --white: #fff;
+    --area-1: #de3c3c;
+    --area-2: #08ffc8;
+    --area-3: #78bdc4;
+    --area-4: #ffa45b;
+    --para: #aab2bd;
+    --logo: #3bafda;
+    --areatext: #ec87c0;
+    font-size: 16px;
+}
+
+.container {
+    padding: 0 100px 0 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    color: var(--logo);
+    padding-top: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text {
+    margin-top: 150px;
+}
+
+.text h2 {
+    color: var(--h2);
+    max-width: 350px;
+    font-size: 3rem;
+}
+
+.text span {
+    margin-left: 200px;
+}
+
+.desc {
+    border-left: 3px solid var(--h3Btnbleft);
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.text p {
+    max-width: 400px;
+    line-height: 1.6;
+    color: var(--para);
+}
+
+.imgLink {
+    margin-left: -170px;
+}
+
+.img img {
+    width: 350px;
+    display: block;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+.img {
+    width: 390px;
+    height: 390px;
+    box-shadow: 0 0 1.2rem rgba(0,0,0,.15);
+    border-radius: 50%;
+    margin-top: 70px;
+}
+
+.imgLink a {
+    background-color: var(--h3Btnbleft);
+    padding: 15px 35px;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+}
+
+.availability {
+    margin-top: 100px;
+}
+
+.availability h3 {
+    text-align: center;
+    color: var(--h3Btnbleft);
+    font-size: 1.8rem;
+}
+
+div[class ^= 'area-'] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0 0 .9rem rgba(0,0,0,.15);
+    padding: 10px;
+    width: 250px;
+    margin: 30px 0;
+    color: var(--areatext);
+}
+
+.area-1 {
+    border-left: 5px solid var(--area-1);
+}
+
+.area-2 {
+    border-left: 5px solid var(--area-2);
+}
+
+.area-3 {
+    border-left: 5px solid var(--area-3);
+}
+
+.area-4 {
+    border-left: 5px solid var(--area-4);
+}
+
+div[class ^= 'area-'] span {
+    margin-top: 8px;
+}
+
+.range {
+    width: 100%;
+    background-color: #ffce54;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    background: #3c3b3d;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: #48cfad;
+    cursor: pointer;
+}
