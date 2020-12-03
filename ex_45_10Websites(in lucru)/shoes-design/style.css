@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CB021C;
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.4s ease-in-out;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hamburger {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    font-size: 3rem;
+}
+
+.phone {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 3rem;
+}
+
+.logo {
+    color: #fff;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1.7rem;
+}
+
+.logo i {
+    font-size: 3rem;
+}
+
+.logo h2 {
+    font-weight: normal;
+    margin: 0;
+}
+
+.logo p {
+    color: #1f1f1f;
+    font-weight: bold;
+    margin: 0;
+}
+
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 10rem;
+}
+
+.carousel {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(0);
+    transition: transform 0.4s ease-in-out;
+}
+
+.slide {
+    width: 100vw;
+    text-align: center;
+}
+
+.slide img {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.slide h1 {
+    color: #fff;
+    font-size: 4rem;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+
+.slide a {
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+.arrow {
+    background-color: transparent;
+    position: absolute;
+    top: 20%;
+    font-size: 5rem;
+    color: #000;
+    opacity: 0.5;
+    transform: translateY(-50%);
+    border: 0;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 2rem;
+}
+
+.right-arrow {
+    right: 2rem;
+}

@@ -1,0 +1,2 @@
+- using speech API
+- speech synthesys
