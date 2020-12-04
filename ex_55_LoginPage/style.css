@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("https://www.pcbattlestations.com/wp-content/uploads/2019/01/saabotage900_8-compressor.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: none;
+  background-size: 780px;
+}
+
+p {
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  position: relative;
+  left: 1%;
+  font-family: sans-serif;
+  opacity: 50%;
+}
+
+.box {
+  width: 200px;
+  padding: 40px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  background: #2c3e50;
+  text-align: center;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 60%;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  border-radius: 20px;
+  padding: 13px 10px;
+  width: 100px;
+  outline: none;
+  color: white;
+  transition: 0.4s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 180px;
+  border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  border-radius: 20px;
+  padding: 13px 10px;
+  width: 100px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  background: #2ecc71;
+  transition: 0.25s;
+}

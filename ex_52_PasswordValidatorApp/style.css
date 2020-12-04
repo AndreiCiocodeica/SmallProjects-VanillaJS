@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Balthazar|Cambay|Handlee&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+}
+
+.Password-validator {
+  padding: 2rem 0;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  border: 3px solid crimson;
+  box-shadow: 1px 1px 5px crimson, -1px -1px 5px crimson;
+}
+
+.header {
+  padding: 3vh 0;
+  background-color: crimson;
+}
+
+.header h1 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: Balthazar, sans-serif;
+}
+
+.input-part {
+  padding: 2vh 1vh;
+  background-color: #5d55cc;
+}
+
+label[for="pswd"] {
+  display: block;
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+#pswd,
+#btn {
+  display: block;
+  width: 90%;
+  height: 3rem;
+  font-size: 1rem;
+  margin: 1rem auto;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+}
+
+#btn {
+  color: #fff;
+  border: 0;
+  font-weight: bold;
+  width: 40%;
+  background-color: crimson;
+  box-shadow: 1px 1px 5px lightblue, -1px -1px 5px lightblue;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #78cdd7;
+  color: #0d5c63;
+}
+
+.pswd-input {
+  position: relative;
+}
+
+/* Icon Eye */
+#see-icon {
+  position: absolute;
+  right: 2.8rem;
+  top: 1rem;
+  cursor: pointer;
+}
+
+.output-part {
+  font-size: 1rem;
+  padding: 2vh 1vh;
+  background-color: #ddd;
+}
+
+.output-part h3 {
+  margin: 1.4rem auto;
+  text-align: center;
+}
+
+#show {
+  margin: 0.7rem;
+  line-height: 2rem;
+  list-style: none;
+  /* list-item-position:inside; */
+}
+
+.rw-icon {
+  margin: 0 10px 0 5px;
+}
+
+/* li:before {
+  content: "✔️";
+  margin: 0 10px;
+}
+
+li:before {
+  content: "❌";
+  margin: 0 10px;
+} */
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Password-validator {
+    padding: 0;
+  }
+}

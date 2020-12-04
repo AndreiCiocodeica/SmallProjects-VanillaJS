@@ -1,0 +1,44 @@
+body {
+  background-color: grey;
+  border: 3px solid black;
+  padding: 20px;
+  width: 520px;
+}
+
+.clock {
+  padding: 5px;
+  border: 5px solid lightskyblue;
+  font-family: serif;
+  border-radius: 30px;
+  display: inline-block;
+  width: 500px;
+}
+
+#show-clock {
+  text-align: center;
+  font-family: serif;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 70px;
+  text-shadow: 5px 2px 25px white;
+  padding: 5px;
+  border: 2px lightskyblue;
+  border-radius: 30px;
+}
+
+#show-date {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border: 2px lightskyblue;
+  font-family: serif;
+  border-radius: 30px;
+}
+
+#text {
+  text-align: center;
+  color: white;
+  letter-spacing: 3px;
+  display: inline-block;
+  width: 500px;
+}

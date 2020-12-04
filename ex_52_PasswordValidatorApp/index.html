@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Validator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="Password-validator">
+      <div class="container">
+        <div class="header">
+          <h1>Password Validator</h1>
+        </div>
+
+        <div class="input-part">
+          <label for="pswd">Enter Password:</label>
+
+          <div class="pswd-input">
+            <input type="password" id="pswd" autocomplete="off" placeholder="Password..." />
+            <span id="see-icon"
+              ><i onclick="seePassword()" class="fas fa-eye" aria-hidden="true"></i
+            ></span>
+          </div>
+
+          <input id="btn" onclick="checkPassword()" type="submit" value="Check" />
+        </div>
+
+        <div class="output-part">
+          <h3>Test Your Password:</h3>
+          <ul id="show">
+            <li><span class="rw-icon"></span>Length of Password between (5-10).</li>
+            <li><span class="rw-icon"></span>Password Contain Digit.</li>
+            <li><span class="rw-icon"></span>Password Contain Upper Alphabet.</li>
+            <li><span class="rw-icon"></span>Password Contain Lower Alphabet.</li>
+            <li><span class="rw-icon"></span>Password Contain Special Characters.</li>
+            <li><span class="rw-icon"></span>Password Not Contain Space.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
